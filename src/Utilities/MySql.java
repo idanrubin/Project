@@ -1,5 +1,9 @@
 package Utilities;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -8,14 +12,14 @@ import java.sql.Statement;
 
 public class MySql extends MainUtilities {
 	
-	public static String[] getEmailPassword(String username) throws ClassNotFoundException, SQLException {
+	public static String[] getEmailPassword(String username) throws ClassNotFoundException, SQLException, IOException, SAXException, ParserConfigurationException {
 		String arr[] = new String[2];
 		String email = null;
 		String pass = null;
 
 		
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mysql://18.221.206.225:3306/automation", "root" , "IdAnRuBiN");
+		Connection conn = DriverManager.getConnection(loadFromXml("serverConnection"), loadFromXml("user") ,loadFromXml("password") );
 		loggerMySql.info("DB connection success");
 		Statement stmt = conn.createStatement();
 		ResultSet resultSet = stmt.executeQuery("select email , password from automation.user where username ='"+username+"';");
