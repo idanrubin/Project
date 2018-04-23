@@ -21,6 +21,8 @@ import Utilities.SharedUtilities;
 
 public class Sanity extends MainUtilities {
 
+
+
 	@Rule
 	public TestName testName = new TestName();
 
