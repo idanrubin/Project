@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/client-combined-3.5.3-nodeps.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/cssparser-0.9.23.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/htmlunit-2.27.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/htmlunit-core-js-2.27.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/htmlunit-driver-2.27.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jetty-client-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jetty-http-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jetty-io-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jetty-util-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/neko-htmlunit-2.27.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/websocket-api-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/websocket-client-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/websocket-common-9.4.5.v20170502.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/SeleniumJar&apos;s/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/java/sikulixJar/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/java/extentreports-java-2.41.2_Jar/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="D:/java/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar"/>
+	<classpathentry kind="lib" path="D:/java/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Experitest/AppiumStudio/clients/appium/java/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

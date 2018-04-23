@@ -1,0 +1,22 @@
+INFO	2018-04-23 14:28:00,922	1	MainUtilities	[main]	**** Starting Log4J ****
+INFO	2018-04-23 14:30:49,342	0	MainUtilities	[main]	**** Starting Log4J ****
+INFO	2018-04-23 14:30:49,551	209	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:30:49,557	215	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:30:55,021	5679	MainUtilities	[main]	initChromeDriver
+INFO	2018-04-23 14:30:57,156	7814	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:10,416	21074	MainUtilities	[main]	initBrowser
+INFO	2018-04-23 14:31:10,426	21084	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:10,430	21088	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:10,562	21220	MainUtilities	[main]	initExtentReports
+INFO	2018-04-23 14:31:10,607	21265	MainUtilities	[main]	Start new test test01-SingIn
+INFO	2018-04-23 14:31:10,660	21318	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:15,383	26041	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:16,928	27586	MySql	[main]	DB connection success
+INFO	2018-04-23 14:31:17,092	27750	MySql	[main]	return email and password from DB success
+INFO	2018-04-23 14:31:21,377	32035	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:21,444	32102	MainUtilities	[main]	endTestReport
+INFO	2018-04-23 14:31:21,446	32104	MainUtilities	[main]	Start new test test02-AddProductToCart
+INFO	2018-04-23 14:31:21,450	32108	MainUtilities	[main]	get data from xml
+INFO	2018-04-23 14:31:27,387	38045	MainUtilities	[main]	endTestReport
+INFO	2018-04-23 14:31:27,851	38509	MainUtilities	[main]	Report flusing and close
+INFO	2018-04-23 14:31:28,877	39535	MainUtilities	[main]	**** Driver Quit ****
