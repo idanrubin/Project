@@ -21,8 +21,6 @@ import Utilities.SharedUtilities;
 
 public class Sanity extends MainUtilities {
 
-
-
 	@Rule
 	public TestName testName = new TestName();
 
@@ -53,11 +51,11 @@ public class Sanity extends MainUtilities {
 		homePage.assertNumberProductInCartIs("1");
 	}
 
-//	@Test
-//	public void test03_assertElementPicture() throws ParserConfigurationException, SAXException, IOException, FindFailed {
-//		homePage.searchBar(loadFromXml("searchInput"));
-//		SharedUtilities.assertElementImageWith(loadFromXml("PictureName"));
-//	}
+	@Test
+	public void test03_assertElementPicture() throws ParserConfigurationException, SAXException, IOException, FindFailed {
+		homePage.searchBar(loadFromXml("searchInput"));
+		SharedUtilities.assertElementImageWith(loadFromXml("PictureName"));
+	}
 
 	@After
 	public void afterTest() {
