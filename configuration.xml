@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Env>
+
+
+
+	<BrowserType>chrome</BrowserType>
+	<URL>http://yoniflenner.net/prestashop/index.php</URL>
+	<ChromeDriverPath>C://Program Files/seleniumDrivers//chromedriver.exe</ChromeDriverPath>
+	<FireFoxDriverPath>D://java//seleniumDriver//Firefox//geckodriver.exe</FireFoxDriverPath>
+	<EdgeDriverPath>D://java//seleniumDriver//Edge//MicrosoftWebDriver.exe</EdgeDriverPath>
+	
+	
+	<searchInput>women</searchInput>
+
+	
+	<!-- MySql -->
+	<serverConnection>jdbc:mysql://18.221.206.225:3306/automation</serverConnection>
+	<user>root</user>
+	<password>IdAnRuBiN</password>
+	
+	<userName>Idan rubin</userName>
+	
+	
+	<!-- Report -->
+	<ReportFilePath>C://myProjectReport//</ReportFilePath>
+	<ReportFileName>TestReport_</ReportFileName>
+	<ScreenShotPath>C://myProjectReport//</ScreenShotPath>
+	<ScreenShotName>screenShot_</ScreenShotName>
+	
+	
+	<!-- Sikuli -->
+	<SikuliPathe>D:/java/sikuliPic/</SikuliPathe>
+	<PictureName>searchNotFound</PictureName>
+	
+</Env>
